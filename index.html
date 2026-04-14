@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-Red-100 font-[DM_Sans] text-lg">
+    <main class="max-w-lg mx-auto h-screen place-content-center px-3">
+      <main class="space-y-4">
+        <div
+          class="bg-Red-500 text-white flex justify-between items-center p-4 md:p-6 rounded-2xl"
+        >
+          <div>
+            <h1 class="text-sm md:text-base">My balance</h1>
+            <p class="text-2xl md:text-3xl">$921.48</p>
+          </div>
+          <img class="size-15" src="images/logo.svg" alt="" />
+        </div>
+
+        <section class="bg-white rounded-2xl p-5 md:p-8 space-y-6">
+          <h1 class="text-2xl md:text-3xl font-bold">Spending - Last 7 days</h1>
+          <!--  -->
+          <div class="grid grid-cols-7 text-center items-end text-base">
+            <div class="flex flex-col items-center gap-2 group cursor-pointer">
+              <p
+                class="opacity-0 text-white group-hover:opacity-100 transition duration-200 bg-Brown-950 px-px md:p-1 font-bold rounded w-full text-sm md:text-base"
+              >
+                $17.45
+              </p>
+
+              <div class="w-full px-1 md:px-2">
+                <div
+                  class="h-[52.35px] bg-Red-500 hover:bg-Red-Hover rounded"
+                ></div>
+              </div>
+
+              <p class="text-Brown-400">mon</p>
+            </div>
+            <!--  -->
+            <div class="flex flex-col items-center gap-2 group cursor-pointer">
+              <p
+                class="opacity-0 text-white group-hover:opacity-100 transition duration-200 bg-Brown-950 px-px md:p-1 rounded w-full font-bold text-sm md:text-base"
+              >
+                $34.91
+              </p>
+              <div class="px-1 md:px-2 w-full">
+                <div
+                  class="h-[104.73px] bg-Red-500 hover:bg-Red-Hover rounded w-full"
+                ></div>
+              </div>
+              <p class="text-Brown-400">tue</p>
+            </div>
+            <!--  -->
+            <div class="flex flex-col items-center gap-2 group cursor-pointer">
+              <p
+                class="opacity-0 text-white group-hover:opacity-100 transition duration-200 bg-Brown-950 px-px md:p-1 rounded w-full font-bold text-sm md:text-base"
+              >
+                $52.36
+              </p>
+              <div class="px-1 md:px-2 w-full">
+                <div
+                  class="h-[157.08px] bg-Blue-300 hover:bg-Blue-Hover rounded w-full"
+                ></div>
+              </div>
+              <p class="text-Brown-400">wed</p>
+            </div>
+            <!--  -->
+            <div class="flex flex-col items-center gap-2 group cursor-pointer">
+              <p
+                class="opacity-0 text-white group-hover:opacity-100 transition duration-200 bg-Brown-950 px-px md:p-1 rounded w-full font-bold text-sm md:text-base"
+              >
+                $31.07
+              </p>
+              <div class="px-1 md:px-2 w-full">
+                <div
+                  class="h-[93.21px] bg-Red-500 hover:bg-Red-Hover rounded w-full"
+                ></div>
+              </div>
+              <p class="text-Brown-400">thu</p>
+            </div>
+            <!--  -->
+            <div class="flex flex-col items-center gap-2 group cursor-pointer">
+              <p
+                class="opacity-0 text-white group-hover:opacity-100 transition duration-200 bg-Brown-950 px-px md:p-1 rounded w-full font-bold text-sm md:text-base"
+              >
+                $23.39
+              </p>
+              <div class="px-1 md:px-2 w-full">
+                <div
+                  class="h-[70.17px] bg-Red-500 hover:bg-Red-Hover rounded w-full"
+                ></div>
+              </div>
+              <p class="text-Brown-400">fri</p>
+            </div>
+            <!--  -->
+            <div class="flex flex-col items-center gap-2 group cursor-pointer">
+              <p
+                class="opacity-0 text-white group-hover:opacity-100 transition duration-200 bg-Brown-950 px-px md:p-1 rounded w-full font-bold text-sm md:text-base"
+              >
+                $43.28
+              </p>
+              <div class="px-1 md:px-2 w-full">
+                <div
+                  class="h-[129.84px] bg-Red-500 hover:bg-Red-Hover rounded w-full"
+                ></div>
+              </div>
+              <p class="text-Brown-400">sat</p>
+            </div>
+            <!--  -->
+            <div class="flex flex-col items-center gap-2 group cursor-pointer">
+              <p
+                class="opacity-0 text-white group-hover:opacity-100 transition duration-200 bg-Brown-950 px-px md:p-1 rounded w-full font-bold text-sm md:text-base"
+              >
+                $25.48
+              </p>
+              <div class="px-1 md:px-2 w-full">
+                <div
+                  class="h-[76.44px] bg-Red-500 hover:bg-Red-Hover rounded w-full"
+                ></div>
+              </div>
+              <p class="text-Brown-400">sun</p>
+            </div>
+          </div>
+          <!--  -->
+          <hr class="text-Brown-400" />
+          <div>
+            <div class="flex justify-between items-end">
+              <div>
+                <h1 class="text-sm md:text-base text-Brown-400">
+                  Total this month
+                </h1>
+                <p class="text-3xl md:text-[40px] font-bold text-Brown-950">
+                  $478.33
+                </p>
+              </div>
+              <div>
+                <p
+                  class="font-bold text-right text-sm md:text-base text-Brown-950"
+                >
+                  +2.4%
+                </p>
+                <p class="text-sm md:text-base text-Brown-400">
+                  from last month
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </main>
+  </body>
+</html>
